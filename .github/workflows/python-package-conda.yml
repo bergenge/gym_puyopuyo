@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -e .
-        conda install -r requirements-test.txt
+        pip install -r requirements-test.txt
     - name: Lint with flake8
       run: |
         conda install flake8
